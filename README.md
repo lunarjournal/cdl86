@@ -80,8 +80,8 @@ The original function `add` has now been hooked!
 To dump debug info from the `cdl_jmp_patch` struct use `cdl_jmp_dbg`.
 
 # Info
-**cdl.c** - C source file for CDL. <br>
-**cdl.h** - CDL header file to include.
+`cdl.c` - C source file for CDL. <br>
+`cdl.h` - CDL header file to include.
 
 Folders:
-* **/tests** - CDL test suite. Run `make all`.
+* `tests` - CDL test suite. Run `make all`.
