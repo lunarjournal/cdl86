@@ -27,6 +27,58 @@ void cdl_swbp_dbg(struct cdl_swbp_patch *swbp_patch);
 The API is documented in more detail in the corresponding header and source
 files.
 
+# Example Usage
+
+Assuming we have a function `add()` that is defined as follows:
+```
+int add(
+    __in int x,
+    __in int y
+)
+{
+    printf("Inside original function\n");
+    return x + y;
+}
+```
+
+Assuming we want to hook this function with `cdl86` the first step
+is to define a function pointer typedef and declare our detour function:
+
+```
+typedef int add_t(
+    __in int x,
+    __in int y
+);
+add_t* addo = NULL;
+```
+```
+// define detour function
+int add_detour(
+    __in int x,
+    __in int y
+)
+{
+    printf("Inside detour function\n");
+    return addo(5,5);
+}
+
+```
+Then in our `main()` function we create a cdl_jmp_patch struct and assign
+a value to `addo` (our function pointer to the original function):
+```
+struct cdl_jmp_patch jmp_patch = {};
+addo = (add_t*)add;
+```
+
+Finally call `cdl_jmp_attach` as follows:
+```
+jmp_patch = cdl_jmp_attach((void**)&addo, add_detour);
+```
+
+The original function `add` has now been hooked!
+
+To dump debug info from the `cdl_jmp_patch` struct use `cdl_jmp_dbg`.
+
 # Info
 **cdl.c** - C source file for CDL. <br>
 **cdl.h** - CDL header file to include.
