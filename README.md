@@ -63,7 +63,7 @@ int add_detour(
 }
 
 ```
-Then in our `main()` function we create a cdl_jmp_patch struct and assign
+Then in our `main()` function we create a `cdl_jmp_patch` struct and assign
 a value to `addo` (our function pointer to the original function):
 ```
 struct cdl_jmp_patch jmp_patch = {};
