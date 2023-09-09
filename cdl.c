@@ -540,7 +540,7 @@ struct cdl_jmp_patch cdl_jmp_attach(
     uint8_t* target_origin = NULL;
     uint8_t* plt_got = NULL;
     uint8_t* bytes_orig = NULL;
-    struct cdl_jmp_patch jmp_patch = {};
+    struct cdl_jmp_patch jmp_patch = {0};
 
     target_origin = (uint8_t*)*target;
     /* Check if target pointer is PLT entry. */
@@ -638,7 +638,7 @@ struct cdl_swbp_patch cdl_swbp_attach(
     uint8_t* bytes_orig = NULL;
     uint8_t* target_origin = NULL;
     uint8_t* plt_got = NULL;
-    struct cdl_swbp_patch swbp_patch = {};
+    struct cdl_swbp_patch swbp_patch = {0};
 
     /* Initialise cdl signal handler. */
     if (!cdl_swbp_init)
