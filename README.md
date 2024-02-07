@@ -5,7 +5,7 @@ cdl86: Compact Detour Library 86
 **See it in action!** [gsctool](https://github.com/lunarjournal/gsctool)
 
 # Abstract
-cdl86 is a simple cross platform detours library written in C for Linux and Windows.
+cdl86 is a simple, single c file, cross platform detours library written in C for Linux and Windows.
 
 It allows for the interception of x86 and x86_64 C/C++ functions in memory.
 
