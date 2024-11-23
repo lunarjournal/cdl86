@@ -2,7 +2,7 @@
  * @file cdl.c
  * @brief cdl86 (Compact Detour Library) - cdl.c
  *
- * Experimental Linux & Windows x86_64 detour library.
+ * Experimental Linux & Windows x86_64 detours library.
  *
  * Copyright (c) 2022 (Dylan Muller)
  * All rights reserved.
