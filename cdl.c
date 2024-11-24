@@ -1,6 +1,6 @@
 /**
  * @file cdl.c
- * @brief cdl86 (Compact Detour Library) - cdl.c
+ * @brief cdl86 (Compact Detours Library) - cdl.c
  *
  * Experimental Linux & Windows x86_64 detours library.
  *
