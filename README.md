@@ -84,7 +84,7 @@ To dump debug info from the `cdl_jmp_patch` struct use `cdl_jmp_dbg`.
 
 # Info
 
-The compiler used for this project is [tcc](https://github.com/lunarjournal/tcc).
+The compiler used for this project is [`tcc`](https://github.com/lunarjournal/tcc).
 
 Files:
 <br/>
