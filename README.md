@@ -19,7 +19,7 @@ The library currently supports two types of function hooks:
 > This project makes use of an internal x86 instruction length disassembly engine.
 
 # API
-```C
+```
 struct cdl_jmp_patch cdl_jmp_attach(void **target, void *detour);
 struct cdl_swbp_patch cdl_swbp_attach(void **target, void *detour);
 void cdl_jmp_detach(struct cdl_jmp_patch *jmp_patch);
