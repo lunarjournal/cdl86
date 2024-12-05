@@ -10,7 +10,7 @@
 
 It allows for the interception of `x86` and `x86_64` C/C++ functions in memory.
 
-[https://journal.lunar.sh/2022/linux-detours.html](https://journal.lunar.sh/2022/linux-detours.html)
+[`https://journal.lunar.sh/2022/linux-detours.html`](https://journal.lunar.sh/2022/linux-detours.html)
 
 The library currently supports two types of function hooks:
 * `JMP` patch - patches origin function with a `JMP` to detour.
