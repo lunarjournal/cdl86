@@ -85,9 +85,10 @@ To dump debug info from the `cdl_jmp_patch` struct use `cdl_jmp_dbg`.
 
 The compiler used for this project is [tcc](https://github.com/lunarjournal/tcc).
 
-
-`cdl.c` - C source file for CDL. <br>
-`cdl.h` - CDL header file to include.
+Files:
+<br/>
+* `cdl.c` - C source file for CDL. <br>
+* `cdl.h` - CDL header file to include.
 
 Folders:
 * `/tests` - CDL test suite. Run `make all`.
