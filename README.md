@@ -90,4 +90,4 @@ The compiler used for this project is [tcc](https://github.com/lunarjournal/tcc)
 `cdl.h` - CDL header file to include.
 
 Folders:
-* `tests` - CDL test suite. Run `make all`.
+* `/tests` - CDL test suite. Run `make all`.
