@@ -3,7 +3,7 @@
 `cdl86`: Compact Detours Library 86
 
 **See it in action!** <br>
-* [gsctool](https://github.com/lunarjournal/gsctool)
+* [`gsctool`](https://github.com/lunarjournal/gsctool)
 
 # Abstract
 `cdl86` is a simple, single file, cross platform detours library written in C for Linux and Windows.
