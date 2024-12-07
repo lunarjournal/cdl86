@@ -92,4 +92,4 @@ Files:
 * `cdl.h` - `CDL header file to include.`
 
 Folders:
-* `/tests` - CDL test suite. Run `make all`.
+* `/tests` - `CDL test suite.`
