@@ -2,7 +2,7 @@
 
 `cdl86` - Compact Detours Library 86
 
-**See it in action!** <br>
+> **See it in action!** <br>
 * [`gsctool`](https://github.com/lunarjournal/gsctool)
 
 # Abstract
