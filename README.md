@@ -16,7 +16,7 @@ The library currently supports two types of function hooks:
 * `JMP` patch - patches origin function with a `JMP` to detour.
 * `INT3` patch - places software breakpoint (`SWBP`) at origin address. Handles control flow to detour.
 
-> This project makes use of an internal `x86` instruction length disassembly engine.
+> Note: This project makes use of an internal `x86` instruction length disassembly engine.
 
 # API
 ```
