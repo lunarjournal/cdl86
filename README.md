@@ -80,7 +80,7 @@ jmp_patch = cdl_jmp_attach((void**)&addo, add_detour);
 
 The original function `add` has now been hooked!
 
-To dump debug info from the `cdl_jmp_patch` struct use `cdl_jmp_dbg`.
+To dump `debug` info from the `cdl_jmp_patch` struct use `cdl_jmp_dbg`.
 
 # Info
 
