@@ -2,7 +2,7 @@
 
 `cdl86` - Compact Detours Library 86
 
-> **See it in action!** <br>
+> **Demo Projects** <br>
 > [`gsctool`](https://github.com/lunarjournal/gsctool)
 > [`cs2rec`](https://github.com/FASTCUP/cs2rec)
 
