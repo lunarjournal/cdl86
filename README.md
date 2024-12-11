@@ -4,6 +4,7 @@
 
 > **See it in action!** <br>
 > [`gsctool`](https://github.com/lunarjournal/gsctool)
+> [`cs2rec`](https://github.com/FASTCUP/cs2rec)
 
 # Abstract
 `cdl86` is a simple, single file, cross platform detours library written in `C` for Linux and Windows.
