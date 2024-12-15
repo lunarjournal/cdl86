@@ -15,7 +15,8 @@ It allows for the interception of `x86` and `x86_64` `C/C++` binary functions in
 
 The library currently supports two types of function hooks:
 * `JMP` patch - patches origin function with a `JMP` to detour.
-* `INT3` patch - places software breakpoint (`SWBP`) at origin address.<br>Handles control flow to detour.
+* `INT3` patch - places software breakpoint (`SWBP`) at origin address.<br>
+Handles `control flow` to detour.
 
 > Note: This project makes use of an internal `x86` instruction length disassembly engine.
 
