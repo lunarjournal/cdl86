@@ -94,4 +94,4 @@ Files:
 * `cdl.h` - `CDL header file to include`
 
 Folders:
-* `/tests` - `CDL test suite`.
+* `/tests` - `CDL test suite`
