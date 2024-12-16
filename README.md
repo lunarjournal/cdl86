@@ -47,7 +47,7 @@ int add(
 ```
 
 Assuming we want to hook this function with `cdl86` the first step
-is to define a function pointer typedef and declare our `detour` function:
+is to define a function pointer `typedef` and declare our `detour` function:
 
 ```
 typedef int add_t(
