@@ -16,7 +16,7 @@ It allows for the interception of `x86` and `x86_64` `C/C++` binary functions in
 The library currently supports two types of function hooks:
 * `JMP` patch - patches origin function with a `JMP` to detour.
 * `INT3` patch - places software breakpoint (`SWBP`) at origin address.<br>
-Handles `control flow` to detour.
+Handles `control flow` to `detour`.
 
 > Note: This project makes use of an internal `x86` instruction length disassembly engine.
 
@@ -47,7 +47,7 @@ int add(
 ```
 
 Assuming we want to hook this function with `cdl86` the first step
-is to define a function pointer typedef and declare our detour function:
+is to define a function pointer typedef and declare our `detour` function:
 
 ```
 typedef int add_t(
