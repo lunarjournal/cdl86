@@ -29,7 +29,7 @@ void cdl_swbp_detach(struct cdl_swbp_patch *swbp_patch);
 void cdl_jmp_dbg(struct cdl_jmp_patch *jmp_patch);
 void cdl_swbp_dbg(struct cdl_swbp_patch *swbp_patch);
 ```
-The `API` is documented in more detail in the corresponding header and source
+The `API` is documented in more detail in the corresponding `header` and `source`
 files.
 
 # Example Usage
