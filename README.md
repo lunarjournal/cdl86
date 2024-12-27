@@ -15,7 +15,7 @@ It allows for the interception of `x86` and `x86_64` `C/C++` binary functions in
 
 Currently the following platforms are supported:
 - `Linux`
-- `Windows`
+- `MS Windows`
 
 The library currently supports two types of function hooks:
 * `JMP` patch - patches origin function with a `JMP` to detour.
