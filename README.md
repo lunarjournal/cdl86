@@ -11,7 +11,7 @@
 
 [`https://journal.lunar.sh/2022/linux-detours.html`](https://journal.lunar.sh/2022/linux-detours.html)
 
-It allows for the interception of `x86` and `x86_64` `C/C++` binary functions in memory.
+It allows for the interception of `x86` and `x86_64` `C/C++` binary functions in memory following code injection.
 
 Currently the following platforms are supported:
 - `Linux`
