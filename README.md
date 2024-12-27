@@ -1,6 +1,6 @@
 # cdl86
 
-`cdl86` - Compact Detours Library 86
+`cdl86` - `Compact Detours Library 86`
 
 > **Demo Projects** <br>
 > [`gsctool`](https://github.com/lunarjournal/gsctool)
