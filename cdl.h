@@ -2,7 +2,7 @@
  * @file cdl.h
  * @brief cdl86 (Compact Detours Library) - cdl.h
  *
- * Experimental Linux/Windows x86_64 detours library.
+ * Experimental Linux/Windows x86/x86_64 detours library.
  *
  * Copyright (c) 2022 Lunar RF Labs
  *
