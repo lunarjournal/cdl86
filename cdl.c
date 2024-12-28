@@ -3,6 +3,7 @@
  * @brief cdl86 (Compact Detours Library) - cdl.c
  *
  * Experimental Linux/Windows x86/x86_64 detours library.
+ * Copyright (c) 2022 Lunar RF Labs
  *
  * +---------------------------------------+
  * |   .-.         .-.         .-.         |
