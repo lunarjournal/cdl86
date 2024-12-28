@@ -4,7 +4,29 @@
  *
  * Experimental Linux & Windows x86_64 detours library.
  *
- * Copyright (c) 2022 (Dylan Muller)
+ * Copyright (c) 2022 Lunar RF Labs
+ *
+ * +---------------------------------------+
+ * |   .-.         .-.         .-.         |
+ * |  /   \       /   \       /   \        |
+ * | /     \     /     \     /     \     / |
+ * |        \   /       \   /       \   /  |
+ * |         "_"         "_"         "_"   |
+ * |                                       |
+ * |  _   _   _ _  _   _   ___   ___ _  _  |
+ * | | | | | | | \| | /_\ | _ \ / __| || | |
+ * | | |_| |_| | .` |/ _ \|   /_\__ \ __ | |
+ * | |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
+ * |                                       |
+ * |                                       |
+ * | Lunar RF Labs                         |
+ * | https://lunar.sh                      |
+ * |                                       |
+ * | RF Research Laboratories              |
+ * | Copyright (C) 2022-2024               |
+ * |                                       |
+ * +---------------------------------------+
+ *
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification,
