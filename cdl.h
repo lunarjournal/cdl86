@@ -3,6 +3,7 @@
  * @brief cdl86 (Compact Detours Library) - cdl.h
  *
  * Experimental Linux/Windows x86/x86_64 detours library.
+ * Author: Dylan Müller
  *
  * +---------------------------------------+
  * |   .-.         .-.         .-.         |
